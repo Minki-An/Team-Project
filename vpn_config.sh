@@ -25,6 +25,7 @@ conn Tunnel1
   dpddelay=10
   dpdtimeout=30
   dpdaction=restart_by_peer
+  overlapip=yes
 
 conn Tunnel2
   authby=secret
@@ -44,6 +45,7 @@ conn Tunnel2
   dpddelay=10
   dpdtimeout=30
   dpdaction=restart_by_peer
+  overlapip=yes
 EOF
 
 cat <<EOF> /etc/ipsec.d/aws.secrets
