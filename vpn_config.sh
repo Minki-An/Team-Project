@@ -19,7 +19,7 @@ conn Tunnel1
   keyingtries=%forever
   keyexchange=ike
   leftsubnet=10.2.0.0/16  # IDC 
-  rightsubnet=10.0.0.0/8  # AWS 
+  rightsubnet=10.1.0.0/16  # AWS 
   dpddelay=10
   dpdtimeout=30
   dpdaction=restart_by_peer
